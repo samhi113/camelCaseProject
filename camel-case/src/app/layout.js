@@ -1,7 +1,7 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Nav from "@/components/Nav";
-
+import siteStyle from "./page.module.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         <Nav></Nav>
-        {children}
+        <section className={siteStyle.siteHolder}>{children}</section>
       </body>
     </html>
   );

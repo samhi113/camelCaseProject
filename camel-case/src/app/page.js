@@ -6,6 +6,7 @@ export default function Home() {
     <main>
       <h1>Camels in Costumes</h1>
       <p>Look at these Cute Camels!</p>
+      <h3>Camel Showcase</h3>
     </main>
   );
 }
