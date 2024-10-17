@@ -4,7 +4,8 @@ import styles from "./page.module.css";
 export default function Home() {
   return (
     <main>
-      <h1>Home</h1>
+      <h1>Camels in Costumes</h1>
+      <p>Look at these Cute Camels!</p>
     </main>
   );
 }
