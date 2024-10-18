@@ -1,5 +1,7 @@
 .camel {
     background-color: green;
-    width: 200px;
-    height: 250px;
+    width: 250px;
+    /* height: 250px; */
+    padding: 20px 0px;
+    margin-bottom: 25px;
 }
