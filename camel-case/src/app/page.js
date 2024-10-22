@@ -41,7 +41,7 @@ export default function Home() {
       />
       </section>
 
-      <BottomNav item1='facts' href1='/facts' item2='habitat' href2='/habitat' item3='gallery' href3='/gallery'/>
+      <BottomNav item1='facts' item2='habitat' item3='gallery' />
     </main>
   );
 }

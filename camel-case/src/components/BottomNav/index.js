@@ -3,7 +3,11 @@ import bottomStyle from "./bottom.module.css";
 export default function BottomNav({item1, item2, item3}) {
     const item = [item1, item2, item3]
     for (let i = 0; i < item.length; i++) {
-        item[i] = "/" + item[i]
+        if (item[i] == "home") {
+            item[i] = "/"
+        } else {
+            item[i] = "/" + item[i]
+        }
     }
     return (
         <div className={bottomStyle.botNavCont}>
