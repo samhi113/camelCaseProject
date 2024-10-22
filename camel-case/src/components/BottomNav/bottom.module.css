@@ -1,0 +1,28 @@
+.botNavCont {
+  width: 100%;
+  height: 40vh;
+
+  display: flex;
+  justify-content: space-around;
+}
+
+.bottomSec {
+  width: 25%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+  text-transform: capitalize;
+  text-decoration: none;
+  font-size: calc(1.5vh + 1.5vw);
+  color: white;
+  background-color: green;
+  transition: all 0.25s ease-in-out;
+}
+
+.bottomSec:hover {
+  font-size: calc(1.65vh + 1.65vw);
+}

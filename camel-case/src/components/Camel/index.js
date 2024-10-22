@@ -6,8 +6,7 @@ export default function Camel({ img, title, desc }) {
   return (
     <div className={camelStyles.camel}>
       <div className="camelText">
-        <h1>Hi</h1>
-        <h3>{title}</h3>
+        <h2>Hi {title}</h2>
         <p>{desc}</p>
       </div>
       <Image
