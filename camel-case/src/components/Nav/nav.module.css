@@ -1,25 +1,25 @@
 .mainNav {
-   height: 50px;
-   background-color: #FF9E15;
+  height: 50px;
+  background-color: #ff9e15;
 }
 
 .mainNav ul {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    padding-top: 10px;
-    list-style: none;
-    
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 10px;
+  list-style: none;
 }
 
-.mainNav li a {
-    color: white;
-    text-decoration: none;
-    font-size: 16px;
+.mainNav ul li a {
+  width: 10vw;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  transition: all 0.1s ease-in-out;
 }
 
 .mainNav li a:hover {
-    transition: all 0.1s ease-in-out;
-    /* text-decoration: underline; */
-    font-weight: bold;
+  /* text-decoration: underline; */
+  font-weight: bold;
 }

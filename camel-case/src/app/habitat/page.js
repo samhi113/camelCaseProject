@@ -1,8 +1,9 @@
 import BottomNav from "@/components/BottomNav";
+import Styles from "@/app/page.module.css";
 export default function habitat() {
   return (
     <main>
-      <h1>Habitat</h1>
+      <h1 className={Styles.pageName}>Habitat</h1>
       <p>
         Bactrian camels live in Central Asia, while dromedary camels live in
         North Africa and the Middle East.

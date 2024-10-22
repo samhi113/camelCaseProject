@@ -1,10 +1,11 @@
 import BottomNav from "@/components/BottomNav";
 import FactStyles from "@/app/facts/page.module.css";
+import Styles from "@/app/page.module.css";
 export default function facts() {
   return (
     <main>
       <div className={FactStyles.factsHolder}>
-        <h1>Facts</h1>
+        <h1 className={Styles.pageName}>Facts</h1>
         <ul>
           <li>
             There are two major species of Camel: Camelus bactrianus (Bactrian

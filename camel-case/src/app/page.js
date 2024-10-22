@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Camel from "@/components/Camel";
 import Styles from "@/app/page.module.css"
 import BottomNav from "@/components/BottomNav";
@@ -6,7 +5,7 @@ import BottomNav from "@/components/BottomNav";
 export default function Home() {
   return (
     <main>
-      <h1>Camels in Costumes</h1>
+      <h1 className={Styles.pageName}>Camels in Costumes</h1>
       <p>Look at these Cute Camels!</p>
       <h3>Camel Showcase</h3>
       <section className={Styles.camelShowcase}>
