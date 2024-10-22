@@ -8,10 +8,10 @@
 }
 
 .factsHolder a {
-    color: #FF9E15;
+  color: #f91;
 }
 
 .factsHolder a:hover {
-    color: #fc7955;
-    transition: all 0.2s ease-in-out;
+  color: #f75;
+  transition: all 0.25s ease-in-out;
 }

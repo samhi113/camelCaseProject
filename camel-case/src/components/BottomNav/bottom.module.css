@@ -20,11 +20,11 @@
   text-decoration: none;
   font-size: calc(1.5vh + 1.5vw);
   color: white;
-  background-color: #FF9E15;
+  background-color: #f91;
   transition: all 0.25s ease-in-out;
 }
 
 .bottomSec:hover {
   font-size: calc(1.65vh + 1.65vw);
-  background-color: #b65337;
+  background-color: #f75;
 }
