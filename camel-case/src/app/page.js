@@ -30,12 +30,14 @@ export default function Home() {
       title='Camel 05'
       desc= 'Camel With Party Hat'
       img='camel05'
-      /><Camel 
+      />
+      {/* <Camel 
       title='Camel 06'
       desc= 'Camel With Adventuring Hat'
       img='camel06'
-      /><Camel 
-      title='Camel 07'
+      /> */}
+      <Camel 
+      title='Camel 06'
       desc= 'Camel With Santa Hat'
       img='camel07'
       />

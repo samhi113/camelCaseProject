@@ -4,6 +4,7 @@
 
   display: flex;
   justify-content: space-around;
+  margin-top: 30px;
 }
 
 .bottomSec {
@@ -19,10 +20,11 @@
   text-decoration: none;
   font-size: calc(1.5vh + 1.5vw);
   color: white;
-  background-color: green;
+  background-color: #FF9E15;
   transition: all 0.25s ease-in-out;
 }
 
 .bottomSec:hover {
   font-size: calc(1.65vh + 1.65vw);
+  background-color: #b65337;
 }
