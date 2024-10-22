@@ -1,3 +1,5 @@
+import BottomNav from "@/components/BottomNav"
+
 export default function facts() {
     return (
         <main>
@@ -18,6 +20,7 @@ export default function facts() {
             <ul>
                 <li><a href="https://www.pbs.org/wnet/nature/blog/camel-fact-sheet/">https://www.pbs.org/wnet/nature/blog/camel-fact-sheet/</a></li>
             </ul>
+            <BottomNav item1='home' href1='' item2='habitat' href2='/habitat' item3='gallery' href3='/gallery'/>
         </main>
     )
 }
